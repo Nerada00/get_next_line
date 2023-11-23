@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abdmessa <abdmessa@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/11/23 13:32:54 by abdmessa          #+#    #+#             */
+/*   Updated: 2023/11/23 20:13:15 by abdmessa         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "get_next_line.h"
 
 char	*ft_strdup(char *str)
@@ -22,7 +34,7 @@ char	*ft_strdup(char *str)
 
 char	*ft_strjoin(char *s1, char *s2)
 {
-	char		*str;
+	char	*str;
 	int		i;
 	int		j;
 
