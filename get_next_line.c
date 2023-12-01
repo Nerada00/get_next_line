@@ -70,19 +70,3 @@ char	*get_next_line(int fd)
 	stock = ft_substr(tmp, ft_nl(tmp) + 1, (ft_strlen(tmp) - ft_nl(tmp)));
 	return (free(tmp), free(buf), ret);
 }
-/*
-int	main(void)
-{
-	int		fd;
-	char	*str;
-
-	fd = open("fd.txt", O_RDONLY);
-	str = NULL;
-	//get_next_line(fd);
-	while ((str = get_next_line(fd)))
-	{
-		printf("ligne : %s", str);
-		free(str);
-	}
-	free(str);
-}*/
